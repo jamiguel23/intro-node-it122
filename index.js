@@ -28,7 +28,7 @@ http.createServer(function(req,res){
       break;
     case '/about':
       res.writeHead(200, {'Content-Type': 'text/plain'});
-      res.end('About');
+      res.end('HELLO AGAIN! my name is Matt Miguel and I am a Year Up student and an Intern at Providence Health Services as a JR Software Developer');
       break;
     default:
       res.writeHead(404, {'Content-Type': 'text/plain'});
